@@ -26,19 +26,6 @@ A modern web application for managing and discovering local community events. Bu
 - Implemented a custom ThemeContext for handling dark/light mode preferences
 - Local storage for data persistence without backend dependencies
 
-### UI/UX Design
-
-- Mobile-first approach using Tailwind CSS
-- Consistent spacing and typography using Tailwind's design system
-- Smooth transitions and hover effects for better interactivity
-- Dark mode support with system preference detection
-- Responsive grid layouts for different screen sizes
-
-### Image Handling
-
-- Client-side image resizing for optimal performance
-- Maintains 4:3 aspect ratio for consistency
-- Automatic compression to reduce bandwidth usage
 
 ## Project Structure
 
@@ -58,6 +45,12 @@ src/
 
 ## Getting Started
 
+### Prerequisites
+
+- Node.js 16+
+- npm 7+
+
+### Steps
 1. Clone the repository
 2. Install dependencies:
    ```bash
@@ -68,29 +61,12 @@ src/
    npm run dev
    ```
 
-## Development
 
-### Prerequisites
+## Video Sample
 
-- Node.js 16+
-- npm 7+
 
-## Design Decisions
 
-### Component Architecture
+https://github.com/user-attachments/assets/79c9105e-f46a-4a02-a990-c23516d1f1b4
 
-- Modular components for better maintainability
-- Separation of concerns between UI components and business logic
-- Reusable utility functions for common operations
 
-### Styling Approach
 
-- Tailwind CSS for rapid development and consistent design
-- Custom utility classes for specific design needs
-- CSS-in-JS avoided for better performance
-
-### Data Management
-
-- Local storage for data persistence
-- Efficient data structures for quick access and updates
-- Type-safe operations with proper error handling
